@@ -3,6 +3,8 @@ os: linux
 files:
   - source: /
     destination: /home/ec2-user/app
+  - source: deploy.sh
+    destination: /home/ec2-user/app
 
 hooks:
   AfterInstall:
